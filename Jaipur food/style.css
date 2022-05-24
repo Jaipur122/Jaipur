@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+
+body {
+    font-family: 'Akshar';
+    background-color: rgb(255, 214, 79);
+    margin: 0 300px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}

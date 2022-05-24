@@ -4,4 +4,9 @@ body {
     align-items: center;
     justify-content: space-around;
     background-color: gold;
+    flex-direction: column;
+}
+
+img {
+
 }

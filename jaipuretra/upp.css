@@ -3,7 +3,7 @@
 body{
     background-color: rgb(255, 224, 146);
    
-    height: 2500px; 
+    height: 2600px; 
     display: flex; 
     align-items: center;
     flex-direction: column;
@@ -42,6 +42,7 @@ h5{
 ul{
     margin-top: 10px;
     color: rgb(110, 15, 0);
+    margin-right: 10px;
 }
 h6{
     margin-top: 10px;
@@ -50,7 +51,7 @@ h6{
 
 div{
    height: 200px;
-   width: 700px;
+   width: 800px;
     display: flex;
     justify-content: space-around;
   
@@ -88,6 +89,7 @@ h4{
     transform: scale(1);
     transition: transform 0.3s;
     font-size: 22px;
+    margin-top: 30px;
    
 }
 

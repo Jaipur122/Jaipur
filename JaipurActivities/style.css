@@ -14,11 +14,13 @@ body {
    margin-right: 250px;
    font-family: 'Cinzel';
    border: solid 2px black ;
+   border-radius: 10px;
 }
 
 html{
-    background-color: rgb(246, 140, 34);
-
+   
+   
+    background-image:url( img/ahabhbs.jpg) 
 }
 
 img {

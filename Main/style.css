@@ -2,21 +2,28 @@
 
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
-    background-color: gold;
-    flex-direction: column;
+
     font-family: 'Cinzel';
+    background-color: rgb(255, 224, 146);
+    height: 2000px; 
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+   margin-left: 250px;
+   margin-right: 250px;
+   font-family: 'Cinzel';
+   border: solid 2px black ;
+   border-radius: 10px;
 }
 
-img {
 
-}
 
 .mainP {
     font-size: small;
     margin: 20px;
     width: 50vw;
+}
+html{
+
+    background-image:url( img/ahabhbs.jpg) 
 }

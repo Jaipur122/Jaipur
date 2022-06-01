@@ -78,11 +78,13 @@ p{
     margin-right: 50px;
     transform: scale(1);
     transition: transform 0.8s;
-    transition: 0.3s;
+
     
 }
 
 p:hover {
     /*text-shadow: 0px 0px 10px grey;*/
     transform: scale(1.01);
+    transition: transform 0.8s;
+    transition: 0.3s;
 }

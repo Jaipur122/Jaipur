@@ -14,13 +14,12 @@ body {
    margin-right: 250px;
    font-family: 'Cinzel';
    border: solid 2px black ;
-   border-radius: 10px;
 }
 
 html{
-   
-   
-    background-image:url( img/ahabhbs.jpg) 
+    
+    background-image:url(img/ahabhbs.jpg) 
+
 }
 
 img {
@@ -31,10 +30,10 @@ img {
     height: auto;
     box-shadow: 0px 0px 10px green;
     zoom: 100%;
-    transition:1s;
     margin-bottom: 50px;
     transform: scale(1);
-    transition: transform box-shadow 0.3s;
+    transition: 0.3s;
+ 
 }
 
 img.gangaur, img.kites {
@@ -56,37 +55,28 @@ img:hover {
 
 h2{
     transform: scale(1);
-    transition: transform 0.3s;
+    
     
 }
 
 h2:hover {
     transform: scale(1.15);
+    transition: transform 0.3s;
 }
 
 h1{
     transform: scale(1);
-    transition: transform 0.3s;
     
 }
 
 h1:hover {
     transform: scale(1.2);
+    transition: transform 0.3s;
 }
 
 p{
     text-shadow: grey;
     margin-left: 50px;
     margin-right: 50px;
-    transform: scale(1);
-    transition: transform 0.8s;
-
     
-}
-
-p:hover {
-    /*text-shadow: 0px 0px 10px grey;*/
-    transform: scale(1.01);
-    transition: transform 0.8s;
-    transition: 0.3s;
 }

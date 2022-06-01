@@ -83,3 +83,9 @@ h1:hover {
 div.restaurants:hover {
     text-decoration: underline;
 }
+
+small.bottom {
+    border: 5px solid rgb(255, 206, 83);
+    padding: 10px;
+    background: rgb(255, 236, 189);
+}

@@ -5,26 +5,29 @@
 /*Använd 'namn' */
 
 body {
-    background-color: gold;
-    border: solid 2px rgb(0, 0, 0);
-    margin: 30px 400px;
-    display: flex;
+    background-color: rgb(255, 224, 146);
+    height: 2000px; 
+    display: flex; 
     align-items: center;
     flex-direction: column;
-    font-family: 'Cinzel';
-    border-radius: 10px;
-    margin-left: 250px;
-    margin-right: 250px;
+   margin-left: 250px;
+   margin-right: 250px;
+   font-family: 'Cinzel';
+   border: solid 2px black ;
 }
 
-img {
+img.food {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    width: 150px;
+    width: 100px;
     height: auto;
     box-shadow: 0px 0px 10px green;
     margin: 10px;
+}
+
+img.location {
+    width: 20px;
 }
 
 ul {
@@ -44,4 +47,34 @@ li {
 html{
     
     background-image:url(img/ahabhbs.jpg) 
+}
+
+p, small {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+img:hover {
+    box-shadow: 0px 0px 30px green;
+    transform: scale(1.05);
+}
+
+h2{
+    transform: scale(1);
+    transition: transform 0.3s;
+    
+}
+
+h2:hover {
+    transform: scale(1.15);
+}
+
+h1{
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+h1:hover {
+    transform: scale(1.2);
+    
 }

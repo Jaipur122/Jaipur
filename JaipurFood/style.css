@@ -5,16 +5,15 @@
 /*Använd 'namn' */
 
 body {
-    background-color: gold;
-    border: solid 2px rgb(0, 0, 0);
-    margin: 30px 400px;
-    display: flex;
+    background-color: rgb(255, 224, 146);
+    height: 2000px; 
+    display: flex; 
     align-items: center;
     flex-direction: column;
-    font-family: 'Cinzel';
-    border-radius: 10px;
-    margin-left: 250px;
-    margin-right: 250px;
+   margin-left: 250px;
+   margin-right: 250px;
+   font-family: 'Cinzel';
+   border: solid 2px black ;
 }
 
 img {

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap');
+
+
 body {
     display: flex;
     justify-content: center;
@@ -5,8 +8,14 @@ body {
     justify-content: space-around;
     background-color: gold;
     flex-direction: column;
+    font-family: 'Cinzel';
 }
 
 img {
 
+}
+
+.mainP {
+    font-size: small;
+    margin: 20px;
 }

@@ -1,18 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap');
+
 body{
-    background-color: rgb(224, 215, 134);
+    background-color: rgb(255, 224, 146);
    
-    height: 1500px; 
+    height: 2000px; 
     display: flex; 
     align-items: center;
     flex-direction: column;
-   margin-left: 100px;
-   margin-right: 100px;
-   
+   margin-left: 250px;
+   margin-right: 250px;
+   font-family: 'Cinzel';
+   border: solid 2px black ;
 }
 html{
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(246, 140, 34);
+
 }
 p{
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 50px; 
 }
+
+   

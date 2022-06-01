@@ -55,23 +55,22 @@ img:hover {
 
 h2{
     transform: scale(1);
-    
+    transition: transform 0.3s;
     
 }
 
 h2:hover {
     transform: scale(1.15);
-    transition: transform 0.3s;
 }
 
 h1{
     transform: scale(1);
-    
+    transition: transform 0.3s;
 }
 
 h1:hover {
     transform: scale(1.2);
-    transition: transform 0.3s;
+    
 }
 
 p{

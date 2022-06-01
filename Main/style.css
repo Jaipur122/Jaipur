@@ -17,7 +17,14 @@ body {
   
 }
 
+a{
+    color: rgb(26, 20, 78);
+    text-decoration: underline 2px;
+    }
 
+a:hover {
+    color:rgb(78, 70, 145); ;
+}
 
 .mainP {
     margin: 15px;

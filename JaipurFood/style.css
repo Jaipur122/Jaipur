@@ -16,14 +16,18 @@ body {
    border: solid 2px black ;
 }
 
-img {
+img.food {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    width: 150px;
+    width: 100px;
     height: auto;
     box-shadow: 0px 0px 10px green;
     margin: 10px;
+}
+
+img.location {
+    width: 20px;
 }
 
 ul {

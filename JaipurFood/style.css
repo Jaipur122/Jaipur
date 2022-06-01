@@ -45,3 +45,8 @@ html{
     
     background-image:url(img/ahabhbs.jpg) 
 }
+
+p, small {
+    margin-left: 50px;
+    margin-right: 50px;
+}
